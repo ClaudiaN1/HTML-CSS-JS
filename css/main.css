@@ -1,0 +1,121 @@
+/*
+#FFE4B5
+#FA8072-SALMON
+#8E8D8A
+
+#EAE7DC - egshell white
+#D8C3A5 - dark vanilla
+#8E8D8A - grey
+#E98074 - light red
+#E85A4F - dark red
+*/
+.main_container{
+  width: 80%;
+/* border: solid 0px indianRed;*/
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #FFE4E1;
+}
+
+body{
+  background-color: #BC8F8F;
+  color: black;
+}
+
+h1,h2,h3{
+  color: #FA8072;
+  background-color: #FFF5EE;
+  font-family: "Caveat";
+  font-weight: 200;
+}
+
+nav{
+  text-align: center;
+  border-bottom: 1px solid rosyBrown;
+  text-transform: uppercase;
+padding: 10px;
+
+}
+
+nav a{
+  padding: 10px 10px;
+  margin: 0 5px;
+  border: solid 0px indianRed;
+  color: #BC8F8F;
+  text-decoration: none;
+  font-family: "Caveat";
+}
+
+nav a:hover{
+  background-color: #E98074;
+  color: white;
+  transition: .2s linear;
+}
+
+footer{
+  font-family:"Caveat";
+  font-weight: 300;
+  color: blue;
+  background-color:	#4e1828;
+  /* width: 80%; */
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+footer .social_menu{
+  float: right;
+}
+
+footer .contact_details, footer .social_menu{
+  /* width: 49%; */
+  display: inline-block;
+}
+
+footer .social_menu ul{
+  list-style: none;
+  text-align: right;
+}
+
+footer .social_menu ul li{
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+footer .social_menu ul li a{
+  color: #EAE7DC;
+}
+
+footer .contact_details{
+  color: white;
+}
+
+footer .copyright{
+  color: white;
+  margin-top: 20px;
+}
+footer a{
+  color: white;
+}
+
+footer .copyright .up{
+  float: right;
+  text-align: right;
+}
+
+footer .contact_details{
+  padding: 10px;
+}
+
+
+.product_cards_container .item img{
+  width: 100%;
+  height: 256px;
+}
+
+.product_cards_container .card-content{
+  min-height: 150px;
+}
+
+.not_display{
+  display: none;
+}
